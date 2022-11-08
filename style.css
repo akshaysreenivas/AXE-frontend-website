@@ -155,10 +155,13 @@ label {
   width: 8rem;
     justify-content: space-between
 }
-#footer{
-  z-index: -1;
-  /* position: absolute; */
-  /* bottom: 0; */
+#fb-icon{
+  width: 16px;
+  height: 16px;
+  align-items: center;
+  display: flex;
+  position: relative;
+  top: 3px;
 }
 #footer a{
   cursor: pointer;
