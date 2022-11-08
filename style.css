@@ -1,93 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+}
+body {
+  scroll-behavior: smooth;
+  /* overflow-x: hidden !important; */
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.container a {
+  white-space: nowrap;
+  font-weight: bold;
+}
+nav a:hover {
+  color: rgb(255, 222, 7) !important;
+}
+#fresh {
+  color: rgb(255, 222, 7) !important ;
+}
 
-.container a{
-white-space: nowrap;
-font-weight: bold;
+#search-input-navbar,
+.border-bottom {
+  border: 1px;
+  border-bottom: 1px solid grey;
 }
-nav a:hover { color: rgb(255, 222, 7) !important; }
-#fresh{color: rgb(255, 222, 7) !important ;}
+.hidden {
+  display: none;
+}
+.mb-lg-0 {
+  display: flex;
+  justify-content: space-between !important;
+  gap: 1em;
+  margin-left: auto;
+}
+.h1,
+.card-title,
+.cardtext {
+  font-weight: bolder !important;
+}
+.cardtitle,
+.tips-label {
+  display: inline;
+  background-color: #b5ee00;
+}
+.cardtext {
+  font-size: large;
+}
+label {
+  font-weight: bolder;
+}
+.contain-button:hover {
+  background-color: #2deaf7f6;
+  border: 2px solid;
+  color: black;
+}
+#shop-btn {
+  border-radius: 1.5rem;
+  padding: 0.5rem 2.5rem;
+  color: #3df3ff;
+  font-size: small;
+  border: 2px solid #3df3ff;
+}
+.shop-div {
+  max-width: 27em;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+#shop-btn:hover {
+  background-color: #2deaf7f6;
+  border: 2px solid;
+  color: black;
+}
+.quiz-div {
+  overflow: hidden;
+  background-color: #d7029e;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#quiz {
+  font-weight: bold;
+  display: inline;
+}
+#quiz-title-div {
+  background-color: white;
+  display: inline;
+}
+.contain {
+  max-width: 25rem;
+}
+.contai{
+  max-width: 100%;
+}
+.carousel-item {
+  color: azure;
+}
+.carousel-dec {
+  max-width: 500px;
+}
 
-#search-input-navbar{
-    border: 1px;
-    border-bottom: 1px solid grey;
+.card-border {
+  border: none !important;
 }
-.hidden{
-    display: none;
+.carouselitem {
+  max-width: 800px;
+  margin: auto;
+  color: azure;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
-.mb-lg-0{
-    display: flex;
-    justify-content: space-between !important;
-   gap: 1em;
-    margin-left: auto;
+.h2 {
+  margin: auto;
 }
-.h1{
-    font-weight: bolder !important;
-    
+.top-tips {
+  background-color: #3df3ff;
 }
-label{
-    font-weight: bolder ;
-}
-.contain-button:hover{
-    background-color: #2deaf7f6;
-    border: 2px solid;
-   color:black;
-}
-#shop-btn{
-border-radius:1.5rem ;
-padding: 0.5rem 2.5rem;
-color: #3df3ff;
-font-size: small;
-border: 2px solid #3df3ff;
+#read-btn {
+  background-color: black;
+  color: #b5ee00;
+  border-radius: 1.5rem;
+  padding: 0.5rem 2.5rem;
 
+  font-size: small;
+  border: 2px solid #b5ee00;
 }
-.shop-div{
-    max-width: 27em;
-    display: inline-block;
-font-weight: bold;
-font-size:1.1rem;
-
-
+#read-btn:hover {
+  color: black;
+  background-color: #b5ee00;
+  border: 2px solid #070707;
 }
-#shop-btn:hover{
-    background-color: #2deaf7f6;
-    border: 2px solid;
-   color:black;
+.carousel-decr {
+  display: flex;
+  justify-content: center;
 }
-.quiz-div{
-    overflow: hidden;
-    background-color: #d7029e;
-    display: flex;
-    flex-wrap: wrap;
-   justify-content: space-around;
-    
+.tips {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
-#quiz{
-    font-weight: bold;
-    display: inline;
+.hp-fragrance {
+  width: fit-content !important;
+  /* width: fit-content !important; */
+  height: fit-content !important;
 }
-#quiz-title-div{
-    background-color: white;
-    display: inline;
-
+.chocolate-fragrance {
+  width: fit-content !important;
+  height: fit-content !important;
 }
-.contain{
-    max-width: 25rem;
-    
+.dis-flex {
+  
+  width: 8rem;
+    justify-content: space-between
 }
-.carousel-item{
-    color: azure;
-   
+#footer{
+  z-index: -1;
+  /* position: absolute; */
+  /* bottom: 0; */
 }
-.carouselitem{
-    max-width: 900px;
-    margin: auto;
-    color: azure;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+#footer a{
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
 }
-.h2{
-    margin: auto;
+#footer p{
+  margin: 0;
+  font-size: small;
+  color: #aea1a1;
 }
-.top-tips{
-    background-color: #3df3ff;
+li{
+  list-style: none;
 }
