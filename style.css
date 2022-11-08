@@ -59,9 +59,19 @@ label {
   border-radius: 1.5rem;
   padding: 0.5rem 2.5rem;
   color: #3df3ff;
+  background-color: #070707;
   font-size: small;
   border: 2px solid #3df3ff;
 }
+#quiz-btn {
+  border-radius: 1.5rem;
+  padding: 0.5rem 2.5rem;
+  color: #3df3ff;
+  background-color: #070707;
+  font-size: small;
+  border: 2px solid #3df3ff;
+}
+
 .shop-div {
   max-width: 27em;
   display: inline-block;
@@ -69,6 +79,11 @@ label {
   font-size: 1.1rem;
 }
 #shop-btn:hover {
+  background-color: #2deaf7f6;
+  border: 2px solid;
+  color: black;
+}
+#quiz-btn:hover {
   background-color: #2deaf7f6;
   border: 2px solid;
   color: black;
@@ -127,10 +142,42 @@ label {
   font-size: small;
   border: 2px solid #b5ee00;
 }
+#read-btn1 {
+  background-color: black;
+  color: #b5ee00;
+  border-radius: 1.5rem;
+  padding: 0.5rem 2.5rem;
+
+  font-size: small;
+  border: 2px solid #b5ee00;
+}
+#read-btn2 {
+  background-color: black;
+  color: #b5ee00;
+  border-radius: 1.5rem;
+  padding: 0.5rem 2.5rem;
+
+  font-size: small;
+  border: 2px solid #b5ee00;
+}
+
 #read-btn:hover {
   color: black;
   background-color: #b5ee00;
   border: 2px solid #070707;
+}
+#read-btn1:hover {
+  color: black;
+  background-color: #b5ee00;
+  border: 2px solid #070707;
+}
+#read-btn2:hover {
+  color: black;
+  background-color: #b5ee00;
+  border: 2px solid #070707;
+}
+.dating{
+  font-size: larger;
 }
 .carousel-decr {
   display: flex;
